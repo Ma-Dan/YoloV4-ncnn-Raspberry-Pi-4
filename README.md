@@ -32,5 +32,17 @@ yolov4-tiny-opt.param <br/><br/>
 If you want to run the full YoloV4 version you need: <br/>
 yolov4.bin (download this 245 MB file from [Gdrive](https://drive.google.com/file/d/1dtkgOUKIeNdKRH5z9uTm-A6SUewjiBrj/view?usp=sharing))<br/>
 yolov4.param <br/><br/>
+
+Run the video server with yolov4 realtime detection.
+
+```
+make video
+./video
+```
+
+Then open RaspberryPi-IP:7777 in web browser,  yolov4 processed video will be displayed.
+
+MJPEG server code from [https://github.com/JPery/MJPEGWriter](https://github.com/JPery/MJPEGWriter)
+
 Many thanks to [nihui](https://github.com/nihui/) again!
 
