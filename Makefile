@@ -1,10 +1,10 @@
 
 CC = gcc
-CPPFLAGS = -g -O2 -I/home/ubuntu/ncnn/build/install/include/ncnn -I/usr/local/include/opencv4
+CPPFLAGS = -g -O2 -I/usr/local/include/ncnn -I/usr/local/include/opencv4
 CPP = gcc -E
 LINK = $(CC)
 LIBS = -L$(LIB)
-LIB = /home/ubuntu/ncnn/build/install/lib
+LIB = /usr/local/lib/ncnn
 
 OBJS_YOLOV4 = yolov4.o
 OBJS_VIDEO = video.o MJPEGWriter.o
